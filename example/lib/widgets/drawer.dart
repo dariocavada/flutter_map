@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_map_example/pages/marker_rotate.dart';
+//import 'package:flutter_map_example/pages/marker_rotate.dart'; TODO be added.
 
 import '../pages/animated_map_controller.dart';
 import '../pages/circle.dart';
@@ -107,12 +107,12 @@ Drawer buildDrawer(BuildContext context, String currentRoute) {
           MarkerAnchorPage.route,
           currentRoute,
         ),
-        _buildMenuItem(
+        /* _buildMenuItem(
           context,
           const Text('Marker Rotate'),
-          MarkerRotatePage.route,
+          //MarkerRotatePage.route, TODO be added.
           currentRoute,
-        ),
+        ),*/
         _buildMenuItem(
           context,
           const Text('Plugins'),
